@@ -150,3 +150,24 @@ body {
 } 
 
 }
+  
+@media (min-width: 501px) { 
+    .main-nav ul li { 
+        display: flex; 
+    } 
+
+    .main-content { 
+        padding: 0 10px 0 10px; 
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: auto 1fr auto auto; 
+        gap: 10px; 
+        grid-auto-flow: row; 
+        grid-template-areas: 
+            "main-img main-img main-text" 
+            "main-title main-title main-title" 
+            "Blush mascara lipstick"; 
+        grid-area: main-content; 
+    } 
+
+}

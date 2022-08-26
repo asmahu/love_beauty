@@ -241,3 +241,85 @@ body {
         padding-bottom: 25%;
     }
 }
+ /* Order Form */
+ .form{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+     background-color: #d9d9d9;
+
+  }
+  .form h2{
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 4px;
+    margin: 20px auto;
+    align-self: flex-start;
+  }
+  .order{
+    border: 3px solid #102b5a;
+    background-color: #b1c3d2;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    justify-content: space-between;
+
+  }
+  .field{
+
+    padding: 10px;
+    width: 95%;
+
+  }
+  input[type=text], 
+  input[type=address] {
+    display: block;
+    width: 100%;
+    line-height: 2.5em;
+  }
+  .details{
+    margin: 10px 10px;
+    display: inline-block;
+    margin: 10px auto 20px;
+    padding: 10px;
+    width: 100%;
+  }
+  .text-area{
+    font-size: inherit;
+
+  }
+  textarea{
+    width: 50%;
+    height: 100px;
+    margin: 0 auto;
+  }
+  .submit-btn{
+    width: 30%;
+    margin: 10px auto 20px;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 25px;
+    border: 1px solid gray;
+    background-color: white;
+    text-align: center;
+
+  }
+  .submit-btn a{
+    font-size: 14px;
+  }
+  .submit-btn a:link,
+  .submit-btn a:visited {
+    color: #102b5a;
+    text-decoration: none;
+  }
+  .submit-btn:hover, .submit-btn a:hover{
+    color: black;
+    background-color: gray;
+  }
+ 

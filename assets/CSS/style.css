@@ -150,7 +150,8 @@ body {
 } 
 
 }
-  
+}
+/* CSS Grid: (from 500px) */ 
 @media (min-width: 501px) { 
     .main-nav ul li { 
         display: flex; 

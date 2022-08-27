@@ -1,108 +1,136 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Love Beauty
+**Introduction**
 
-Welcome asmahu,
+Love beauty is part of Code Institute's Portfolio Project 1 - HTML/CSS Essentials.
+It is intended for women who want to buy makeup products and contains some information about it.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## UX
+**Project goals**
+- Making a static front-end website for users who want to purchase makeup products with present          useful information to users about products using HTML/CSS.
+- Creating a website that is easy to navigate and easy to understand.
+- The customer experience has to be great on every device and browser.
+- I am creating the Love Beauty site for users to make orders and buy makeup products.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+**Wireframe Design**
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![home](assets/Images/Home-desktop-wf.PNG)
 
-`python3 -m http.server`
+![order-page](assets/Images/order-page1.PNG)
 
-A blue button should appear to click: _Make Public_,
+![products](assets/Images/products-desktop-view.PNG)
 
-Another blue button should appear to click: _Open Browser_.
+![products](assets/Images/products-mobile-view.PNG)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Existing Features
+**Navigation Bar**
 
-A blue button should appear to click: _Make Public_,
+- Featured on all three pages, the full responsive navigation bar includes links to the Home page, Product Page, and Order Page for easy navigation.
+- This section will allow the user to easily navigate from page to page across all devices without having to reverse to the previous page via the back button.
+- My site title is shown underneath of nav bar. The navigation bar items are positioned on the center side of the screen and aligned in the center of the bar.
+They give access to the Products and Order pages. The navbar is displayed in the same way as the desktop view.
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![navbar](assets/Images/navigation.jpg)
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+**The Main Text**
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The main text includes content about the importance of wearing makeup and the website's purpose.
 
-------
+**The Main Image**
 
-## Release History
+The main image includes one photo of a makeup package which helps users to understand the site's purpose.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![main-text-and-main-image](assets/Images/main-img&main-content.PNG)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+**Informaitonal section**
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+This section introduces our just three products.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![infromational-seciton](assets/Images/main-content2.PNG)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+**The Footer**
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+The footer section includes links to social media sites. The links will open to a new tab to allow easy navigation for the user.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![footer](assets/Images/footer.PNG)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+**Product Page**
+The Product page provides a gallery of product images to see what we provide to users.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![product](assets/Images/product-page.PNG)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+**Order Page**
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The order page enables users to fill out the form and make an order.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+![order](assets/Images/order-page.PNG)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+**Features Left To Implement In The Future**
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+As this project is designed to build a static front-end that demonstrates the skills I have developed using CSS3, and HTML5. I would add the price of each product and the way of applying makeup.
 
-------
+## Testing
+**Validator Testing**
+ **HTML**
+ 
+- W3C validator
+- No errors were found.
 
-## FAQ about the uptime script
+**CSS**
 
-**Why have you added this script?**
+- Jigsaw validator
+one error was found but I couldn't handle it cause some issues were found in the output then didn't remove it is one closing curly bracket.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Lighthouse Test
+![lighthouse](assets/Images/lighthouse1.PNG)
+![lighthouse](assets/Images/lighthouse2.PNG)
 
-**How will this affect me?**
+**Features Left To Implement In The Future**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+As this project is designed to build a static front-end that demonstrates the skills I have developed using CSS3, and HTML5. I would add the price of each product and the way of applying makeup.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+**Browser compatibility**
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- I tested the appearance and responsiveness of 3 browsers (opera, chrome, and firefox) and it showed good results in all browsers.
 
-**So….?**
+**Test the Navigation Bar between Desktop and Mobile**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- The view and position of smartphones and tablets' navigation bars are the same as on desktops.
 
-**Can I opt out?**
+**Test the Footer**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- I placed the social media icons in the center of the footer. I tested all the links and they all worked well. The social media links each open in a separate tab.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+**Navigation Testing** 
 
-**Anything more?**
+All links open in a separate tab.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+**Deployment**
 
----
+In the Github repository, navigate to the setting tab.
+From the source section drop-down menu, select Master branch.
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here.
 
-Happy coding!
+**Credits**
+
+I highly appreciate the slack community and CI for helping me to solve any problem during this project.
+
+**content**
+
+I often look for help in StackOverflow Community when I get stuck.
+
+**Media**
+
+[wwww.w3school.com](www.w3school.com)
+
+[www.unplash.com](www.unplash.com)
+
+[www.purple.com](www.purple.com)
+
+[www.topbeauti.com](www.topbeauti.com)
+
+[www.harpersbazar.com](www.harpersbazar.com)

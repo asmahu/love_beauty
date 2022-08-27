@@ -4,6 +4,8 @@
 Love beauty is part of Code Institute's Portfolio Project 1 - HTML/CSS Essentials.
 It is intended for women who want to buy makeup products and contains some information about it.
 
+![ami](assets/Images/AMI.PNG)
+
 ## UX
 **Project goals**
 - Making a static front-end website for users who want to purchase makeup products with present          useful information to users about products using HTML/CSS.
@@ -113,7 +115,7 @@ All links open in a separate tab.
 In the Github repository, navigate to the setting tab.
 From the source section drop-down menu, select Master branch.
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here.
+The live link can be found [here](https://asmahu.github.io/love_beauty/)
 
 **Credits**
 
